@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Job Application registartion Form</title>
+      <Style>
+        body {
+            text-align:center;
+          background-image: url('5.jpg');
+          color :chartreuse
+        }
+        table,th,td{
+            text-align:center;
+         border: 1px solid white;
+         color:yellow
+        }
+        h3{
+            text-align:center;
+           color:turquoise
+           
+    }
+
+        
+
+            
+       
+
+      </Style>
+  </head>
+
+  <body>
+    <h3>Please Fill Job Application Form to Register</h3>
+    <p>This page will take your Information and will  Apply it for Job PortalSeach</p>
+    <table align="center">
+      <tr> 
+      <th>Company Name</th>
+      <th>Country</th>
+      <th>Level</th>
+      <td></td>
+      <tr>
+          <td>Google</td>
+          <td>USA</td>
+          <td>level 5 </td>
+      </tr>
+      <tr>
+        <td>Adobe</td>
+        <td>India</td>
+        <td>level 5 </td>
+    </tr>
+    <tr>
+        <td>Bosche</td>
+        <td>Germany</td>
+        <td>level 4 </td>
+    </tr>
+    </tr>
+    </table>
+
+<ol align="center">
+ <li>Java</li>
+ <li>Python</li>
+ <li>C sharp +</li>
+</ol>
+
+<ul>
+  <li>Java</li>
+  <li>Python</li>
+  <li>C sharp +</li>
+</ul>
+
+<img src="5.jpg" width="80px" height="50px">
+
+<form action="ActionServlet3" method ="Get">
+
+   <p>Please Fill the Required Information</p>
+
+    <label for ="firstname">Please Enter FirstName</label>
+    <input type ="text" id="fname" name="fname">
+    <br>
+    <br>
+    <br>
+
+    <label for ="lastname">Please Enter LastName</label>
+    <input type ="text" id="lname" name="lname">
+     
+    <p>Gender</p>
+    <label for ="male">Male</label>
+    <input type ="radio"id ="gender" name="gender">
+
+    <label for ="female">Female</label>
+    <input type ="radio"id ="gender" name="gender">
+
+    <label for ="other">Other</label>
+    <input type ="radio"id ="gender" name="gender">
+    <br>
+    </br>
+
+    <label for= "Country">Select your Country
+    <select>
+       <option value="USA">USA</option>
+       <option value="USA">INDIA</option>
+       <option value="USA">United KINGDOM</option>
+       <option value="USA">GERMANY</option>
+       <option value="USA">AUSTRALIA</option>
+
+   </select>
+
+<p>Please Select Your Experience Eligibility(in Years)</p>
+<label for "checkbox">0-5</label>
+<input type ="checkbox" id ="checkbox1" name="checkbox1">
+
+<label for "checkbox">5-10</label>
+<input type ="checkbox" id ="checkbox2" name="checkbox2">
+
+<label for "checkbox">10-15</label>
+<input type ="checkbox" id ="checkbox3" name="checkbox3">
+
+<label for "checkbox">15 and above</label>
+<input type ="checkbox" id ="checkbox4" name="checkbox4">
+
+
+
+    </label>
+<br>
+<br>
+<p>Click the link Below for LinkedIn</p>
+    <a href ="https://www.google.com">LinkedIn</a>
+    <a href ="https://www.facebook.com">Facebook</a>
+    <a href ="https://www.google.com">Twitter</a>
+
+    <br>
+    <br>
+
+<label for ="email">Please Enter Email ID</label>
+<input type="email" id ="email" name="email">
+
+
+<label for ="password">Password</label>
+<input type="password" id ="pass" name="pass">
+<br>
+<br>
+<br>
+
+
+
+<p>Please Upload a file less than 2 mb </p>
+<input type ="file" id="fileupload" name="Akshat">
+
+<p>Please enter any suggestions </p>
+<textarea name="feedback" rows="12" cols="30"></textarea>
+
+<br>
+<br>
+<p>Please Submit the application</p>
+<input type ="submit" value ="Apply">
+
+<input type ="reset" value ="Reset">
+</form>
+
+  </body>
+
+</html>
+
+
+
